@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HA Delights</title>
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="logo">
+                <img src="logoo.jpg" alt="" height="80px">
+                <p>Hamza <br><span>Resturant</span> </p>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <a href="#"><li>HOME</li></a>
+                    <a href="#"><li>CHEFS</li></a>
+                    <a href="#gallery"><li>GALLERY</li></a>
+                    <a href="#about"><li>ABOUT</li></a>
+                    <a href="#"><li>CONTACT</li></a>
+                </ul>
+            </div>
+            <div id="menu2" data-isVisible="false">
+                <ul >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">CHEFS</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="click" class="bar">
+                <button id="mobileNavToggle" onclick="clicked('')"><img src="./bar.png" alt=""></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="inner">
+            <div class="first">
+                <h2>HA Delights</h2>
+                <h1>BEST QUALITY <br><span>FOOD</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aut 
+                    laborum autem<br> nam omnis corporis soluta sint itaque tempora, ea eaque repudiandae  minus veniam quos <br>
+                     vel laudantium assumenda quod ad?</p><br><br> 
+                     <button>BOOK A TABLE</button>
+            </div>
+        </div>
+        <div id="about"></div>
+        <!-- <div class="duplicate-first">
+            <h2>ABOUT <span> US </span></h2>
+        </div>
+        <div id="gallery"></div><br><br>
+        <div class="second">
+            <h2>OUR PRODUCTS</h2>
+            <div class="products">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <div class="products-3">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <h3>SEA FOODS DISHES</h3>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <h3>SEA FOODS DISHES</h3>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <h3>SEA FOODS DISHES</h3>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <h3>SEA FOODS DISHES</h3>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+            <h3>SEA FOODS DISHES</h3>
+            <div class="products-2">
+                <div class="products1">
+                    <img src="https://www.foodandwine.com/thmb/pGQ5LUPdgCHf6AZXAj5ah8mZPJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Bites-of-2022-XL-MAG1022-2000-7288326c863d4665acfaed7112ae98a5.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products2">
+                    <img src="https://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products3">
+                    <img src="https://www.thedailymeal.com/img/gallery/the-101-most-iconic-restaurant-dishes-in-america/blacklabel.jpg" 
+                    alt="" height="80%" width="100%">
+                    <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+                <div class="products4">
+                    <img src="https://www.eatingwell.com/thmb/kE0I0fIxP1avVi3oZWrklis7E1c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8179725-9bdff11c9f7644ddabf44811d71cacc2.jpg"
+                     alt="" height="80%" width="100%">
+                     <p>Delicious Dish #01 <br>
+                        Hanm Burger</p>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <!-- <footer>
+
+        <div class="icons-2">
+                    <a href="https://www.facebook.com/profile.php?id=100087901513542" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/naughty_jutt_02/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.twitter.com" target="_blank"><ion-icon name="logo-twitter" target="_blank"></ion-icon></a>
+                    <a href="https://www.youtube.com/channel/UCXywOTkSF7Ki2kXASEeYEdQ" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                
+        </div>
+        <div class="menu1">
+            <ul>
+                <a href="#"><li>FAQ</li></a>
+                <a href="#"><li>Services</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Privacy Policy</li></a>
+            </ul>
+        </div>
+        <div class="p">
+            <p class="paragraph3">
+                @Hamza Jutt ! All Rights Reserved
+            </p>
+        </div>
+    </footer> -->
+    <script>
+        const mobileNavToggle = document.getElementById('mobileNavToggle')
+        const mobileMenu = document.getElementById('menu2');
+        function clicked(){
+            const mobileMenu = document.getElementById('menu2');
+            // menu2.style.padding = '10%'
+            console.log(after.menu2);
+        }
+
+        mobileNavToggle.addEventListener('click', () => {
+            if (mobileMenu.classList.contains('visible')) {
+                mobileMenu.classList.remove('visible')
+            } else {
+                mobileMenu.classList.add('visible')
+            }
+        })
+
+        
+    </script>
+</body>
+</html>
