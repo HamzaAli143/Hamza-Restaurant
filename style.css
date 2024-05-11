@@ -1,10 +1,10 @@
 @font-face {
     font-family: hot;
-    src: url(Firecat-Medium.ttf);
+    src: url(./Firecat-Medium.ttf);
 }
 @font-face {
     font-family: boldy;
-    src: url(ORBIT\ PERSONAL\ USE.ttf);
+    src: url(./ORBIT\ PERSONAL\ USE.ttf);
 }
 *{
     margin: 0;
@@ -182,7 +182,7 @@ nav{
     border-radius: 20px;
     /* background-color: black; */
     opacity: .4;
-    background-image: url("food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinar.jpg");
+    background-image: url("./food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinar.jpg");
     background-position: center; background-size: cover;
     position: absolute;
 }
