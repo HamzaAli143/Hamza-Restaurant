@@ -220,7 +220,7 @@ nav{
 }
 @media screen and (max-width:472px){
     .inner{
-        height: 110vh;
+        height: 100vh;
     }
 }
 @media screen and (max-width:480px){
@@ -234,6 +234,7 @@ nav{
 .first h1{
     font-size:60px;
     padding-top: 60px;
+    line-height: 9vh;
 }
 #menu2{
     top: 15%;
